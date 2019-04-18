@@ -1,0 +1,34 @@
+<list-page bind:getDataList="getDataList" url="{{url}}">
+	<view wx:for="{{dataList}}" wx:key="id">
+		<view class="shop-card">
+			<image
+			 class=""
+			 src="{{item.goodsImg}}"
+			 mode="aspectFit|aspectFill|widthFix"
+			 lazy-load="false"
+			 binderror=""
+			 bindload=""
+			/>
+			<view class="shopContent">
+				<text class="goodsName">{{item.goodsName}}</text>
+				<view>
+					<text style="color:#FF643B;font-size:36rpx">{{item.shopCredit}}</text>
+					<text style="font-size:26rpx">玩贝</text>
+				</view>
+
+				<view class="shopCard-footer">
+					<view>
+						<text style="color:#A6A6B2"> 约 </text>
+						<text> ¥{{item.shopPrice}}</text>
+					</view>
+					<view>
+						<text style="color:#02AAB0">{{item.virtualSales}}</text>
+						已售
+					</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+</list-page>
+

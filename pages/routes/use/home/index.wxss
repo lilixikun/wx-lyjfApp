@@ -1,0 +1,13 @@
+/* pages/routes/use/index.wxss */
+.van-tab {
+  color: #a6a6b2;
+  font-size: 17px;
+}
+.van-tab--active {
+  font-size: 17px;
+  color: #2b2c42;
+  font-family: PingFangSC-Medium;
+}
+.van-tabs__line {
+  background-color: #02aab0 !important;
+}

@@ -1,0 +1,110 @@
+.bd-dody {
+  padding: 0 40rpx;
+}
+.bd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2B2C42;
+  font-size: 48rpx;
+}
+.bd-header image {
+  width: 124rpx;
+  height: 124rpx;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.menu-items .menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #62656E;
+  font-size: 26rpx;
+  line-height: 44rpx;
+}
+.menu-items .menu-item image {
+  width: 112rpx;
+  height: 112rpx;
+}
+.rankList {
+  margin-bottom: 40rpx;
+}
+.rankList .rank-header {
+  position: relative;
+}
+.rankList .rank-header .rank-bg {
+  position: absolute;
+  top: 0;
+  left: 40rpx;
+  width: 120rpx;
+  height: 144rpx;
+}
+.rankList .rank-header .labelsContent {
+  position: absolute;
+  top: 6.66666667vw;
+  left: 48rpx;
+  font-size: 4.53333333vw;
+  color: #fff;
+}
+.rankList .rank-header .topName {
+  width: 57.06666667vw;
+  position: absolute;
+  top: 5.33333333vw;
+  left: 24.26666667vw;
+  color: #fff;
+}
+.rankList image {
+  width: 100%;
+  height: 670rpx;
+  box-shadow: 0px 0px 20rpx 0px rgba(0, 0, 0, 0.15);
+  border-radius: 16rpx 16rpx 0px 0px;
+}
+.rankList .rank-item {
+  height: 240rpx;
+  box-shadow: 0px 0px 20rpx 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 8rpx 8rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.rankList .rank-item .topicDescribe {
+  font-size: 36rpx;
+  color: #2B2C42;
+  font-family: PingFangSC-Regular;
+}
+.rankList .rank-item .rank-item-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rankList .rank-item .rank-item-center image {
+  width: 72rpx;
+  height: 72rpx;
+}
+.rankList .rank-item .rank-item-center .rank-item-ys {
+  width: 502rpx;
+  height: 48rpx;
+  background: rgba(43, 44, 66, 0.8);
+  border-radius: 24rpx;
+  opacity: 0.7;
+  font-size: 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rankList .rank-item .rank-item-center .rank-item-ys .dots {
+  width: 8px;
+  height: 8px;
+  background: #32dbc9;
+  border-radius: 50%;
+  margin-right: 15rpx;
+}

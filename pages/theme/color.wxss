@@ -1,0 +1,18 @@
+.colorBase {
+  color: #999;
+}
+.colorPrimary {
+  color: #00c1b1;
+}
+.colorDisable {
+  color: #a6a6b2;
+}
+.colorBold {
+  color: #000;
+}
+.colorFFF {
+  color: #fff;
+}
+.colorRed {
+  color: #ff5534;
+}

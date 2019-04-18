@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-tab": "../dist/tab/index",
+    "van-tabs": "../dist/tabs/index",
+    "hotel-list": "../hotel/home/index",
+    "travel-list": "../travel/home/index",
+    "shop-list": "../shop/home/index"
+  },
+  "enablePullDownRefresh": false
+}

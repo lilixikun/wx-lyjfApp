@@ -1,0 +1,15 @@
+<!--pages/components/listPage/index.wxml-->
+<scroll-view
+ id="scroll-wrap"
+ scroll-y
+ scroll-top="{{scrollTop}}"
+ class='scroll-view'
+ enable-back-to-top="true"
+ bindscrolltolower="loadMore"
+ bindscroll="scroll"
+ style="height:{{scrollHeight}}px"
+>
+	<slot/>
+
+</scroll-view>
+

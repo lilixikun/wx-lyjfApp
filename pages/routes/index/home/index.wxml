@@ -1,0 +1,75 @@
+<view class="bd-dody">
+	<view class="bd-header">
+		<text class="">云南大理</text>
+		<image
+		 class=""
+		 src="../../../assets/homeicon/icon 首页 地图@2x.png"
+		 mode="aspectFit|aspectFill|widthFix"
+		 lazy-load="false"
+		 binderror=""
+		 bindload=""
+		/>
+	</view>
+	<view class="menu-items">
+		<view
+		 class="menu-item"
+		 wx:for="{{menuItmes}}"
+		 wx:key="item.src"
+		 bindtap="goTo"
+		 data-index="{{index}}"
+		>
+			<image src="{{item.src}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
+			<text>{{item.text}}</text>
+		</view>
+	</view>
+	<view wx:for="{{dataList}}" class="rankList" wx:key="{{item.id}}">
+		<view>
+			<view class="rank-header" hover-class="none" hover-stop-propagation="false">
+				<image src="../../../assets/homeicon/label@x2.png" mode="aspectFit|aspectFill|widthFix" class="rank-bg" />
+				<view class="labelsContent">{{item.labelsContent}}</view>
+				<view class="topName">{{item.topicName}}</view>
+				<image
+				 class=""
+				 src="{{item.imageFullUrl}}"
+				 mode="aspectFit|aspectFill|widthFix"
+				 lazy-load="false"
+				/>
+			</view>
+
+		</view>
+
+		<view class="rank-item">
+			<view class="topicDescribe">{{item.topicDescribe}}</view>
+			<view class="rank-item-center">
+				<image
+				 class=""
+				 src="../../../assets/homeicon/icon 首页 机器人@2x.png"
+				 mode="aspectFit|aspectFill|widthFix"
+				 lazy-load="false"
+				 binderror=""
+				 bindload=""
+				/>
+				<view class="rank-item-ys" hover-class="none" hover-stop-propagation="false">
+					<view class="dots" hover-class="none" hover-stop-propagation="false" />
+					<view>
+						本榜单已由 为您运算了
+						<text style="color:#FF643B;font-size:28rpx">{{item.totalquantity}}</text>
+						家酒店
+					</view>
+				</view>
+
+			</view>
+
+			<view style="color:#62656E;font-size:24rpx">
+				过滤无效评价
+				<text style="color:#02AAB0;font-size:28rpx"> {{item.invalidCommentCount}}</text>
+				筛选优质评价
+				<text style="color:#02AAB0;font-size:28rpx">{{item.validCommentCount}}</text>
+			</view>
+
+		</view>
+
+	</view>
+
+</view>
+
