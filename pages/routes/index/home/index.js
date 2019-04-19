@@ -74,9 +74,10 @@ Page({
 
   goToDetail(e) {
     const id = e.currentTarget.dataset.id;
-    wx.navigateTo({
-      url: '/pages/index/detail/index?id=' + id
-    })
+    if (!!id)
+      wx.navigateTo({
+        url: '/pages/routes/index/detail/index?id=' + id
+      })
   },
 
   /**

@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "van-button": "./pages/dist/button/index",
-    "list-page": "./pages/components/listPage/index"
+    "list-page": "./pages/components/listPage/index",
+    "van-button": "./pages/dist/button/index"
   },
   "enablePullDownRefresh": false,
   "pages": [

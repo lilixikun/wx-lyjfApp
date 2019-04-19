@@ -22,7 +22,13 @@
 			<text>{{item.text}}</text>
 		</view>
 	</view>
-	<view wx:for="{{dataList}}" class="rankList" wx:key="{{item.id}}">
+	<view
+	 wx:for="{{dataList}}"
+	 class="rankList"
+	 wx:key="{{item.id}}"
+	 bindtap="goToDetail"
+	 data-id="{{item.id}}"
+	>
 		<view>
 			<view class="rank-header" hover-class="none" hover-stop-propagation="false">
 				<image src="../../../assets/homeicon/label@x2.png" mode="aspectFit|aspectFill|widthFix" class="rank-bg" />
