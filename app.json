@@ -7,7 +7,7 @@
   "pages": [
     "pages/routes/index/home/index",
     "pages/routes/use/home/index",
-    "pages/routes/my/index",
+    "pages/routes/my/home/index",
     "pages/routes/use/hotel/home/index",
     "pages/routes/use/travel/home/index",
     "pages/routes/use/shop/home/index",
@@ -36,7 +36,7 @@
         "selectedIconPath": "./pages/assets/tabbaricon/icon 用贝@2x.png"
       },
       {
-        "pagePath": "pages/routes/my/index",
+        "pagePath": "pages/routes/my/home/index",
         "text": "我的",
         "iconPath": "./pages/assets/tabbaricon/icon 我的 默认@2x.png",
         "selectedIconPath": "./pages/assets/tabbaricon/icon 我的@2x.png"

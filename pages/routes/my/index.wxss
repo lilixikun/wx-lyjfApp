@@ -1,4 +1,4 @@
-.controls {
+.contairn {
   position: relative;
   top: 50%;
   height: 50px;
