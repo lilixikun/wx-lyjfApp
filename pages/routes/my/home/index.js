@@ -23,7 +23,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
       this.initGrow();
   },
   //计算成长值长度
@@ -44,6 +44,12 @@ Page({
     })
   },
 
+  //跳转到用呗账号
+   accountClick(){
+      wx.navigateTo({
+        url: '/pages/routes/my/account/index'
+      })
+   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

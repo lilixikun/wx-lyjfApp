@@ -8,10 +8,12 @@
     "pages/routes/index/home/index",
     "pages/routes/use/home/index",
     "pages/routes/my/home/index",
+    "pages/routes/my/account/index",
     "pages/routes/use/hotel/home/index",
     "pages/routes/use/travel/home/index",
     "pages/routes/use/shop/home/index",
     "pages/routes/index/detail/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -42,5 +44,6 @@
         "selectedIconPath": "./pages/assets/tabbaricon/icon 我的@2x.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

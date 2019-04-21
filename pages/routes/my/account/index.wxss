@@ -1,0 +1,65 @@
+.account{
+    padding: 40rpx;
+}
+.account .title{
+    color: #A6A6B2;
+    margin-left: 20rpx;
+    font-size: 28rpx;
+}
+
+.account .num{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    margin: 20rpx;
+}
+
+.num .num-left{
+    color: #02AAB0;
+    font-size: 60rpx;
+}
+.num .num-right{
+    margin-top: 22rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 60rpx;
+    font-size: 28rpx;
+
+}
+.account .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list .bg{
+    /*width:208rpx;*/
+    height:192rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0rpx 0rpx 16rpx 0rpx rgba(221,221,221,0.5);
+    border-radius:8rpx;
+    /*padding: 30rpx 20rpx;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.list .bg .title{
+    font-size:28rpx;
+    color:rgba(166,166,178,1);
+    margin-right: 65rpx;
+    margin-top: 30rpx;
+
+}
+
+.list .bg .numb{
+    color: #2B2C42;
+    margin-left: 20rpx;
+    margin-top: 10rpx;
+    font-size: 36rpx;
+}

@@ -1,0 +1,32 @@
+<view class="account">
+    <view class="title">我的玩呗(个)</view>
+    <view class="num">
+        <text class="num-left">1400</text>
+        <view class="num-right">
+            <text style="color: #A6A6B2;">约</text>
+            <text style="color: #2B2C42">￥12145</text>
+        </view>
+    </view>
+    <view class="list">
+        <view class="bg">
+            <text class="title">可用玩呗</text>
+            <text class="numb">4000</text>
+        </view>
+        <view class="bg">
+            <text class="title">冻结玩贝</text>
+            <text class="numb">4000</text>
+        </view>
+        <view class="bg">
+            <text class="title">累计奖励</text>
+            <text class="numb">4000</text>
+        </view>
+    </view>
+
+    <view>
+        <view>
+            <image src="../../../assets/usericon/icon 全部订单@2x.png"/>
+            <text>玩呗订单</text>
+        </view>
+        <image src="../../../assets/usericon/home_drop-down@2x.png"/>
+    </view>
+</view>
