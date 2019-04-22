@@ -287,6 +287,7 @@
     font-size: 32rpx;
     width: 144rpx;
     height: 72rpx;
+    line-height: 72rpx;
 }
 
 .wallet-left .with-drawal{
@@ -296,7 +297,7 @@
     width: 144rpx;
     height: 72rpx;
     margin-left: 30rpx;
-
+    line-height: 72rpx;
 }
 
 .login .instructions{

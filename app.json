@@ -4,11 +4,13 @@
     "van-button": "./pages/dist/button/index"
   },
   "enablePullDownRefresh": false,
-  "pages": [
+  "pages": [ 
     "pages/routes/index/home/index",
     "pages/routes/use/home/index",
     "pages/routes/my/home/index",
     "pages/routes/my/account/index",
+    "pages/routes/my/topup/index",
+    "pages/routes/my/withdrawal/index",
     "pages/routes/use/hotel/home/index",
     "pages/routes/use/travel/home/index",
     "pages/routes/use/shop/home/index",

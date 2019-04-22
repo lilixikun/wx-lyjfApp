@@ -63,3 +63,37 @@
     margin-top: 10rpx;
     font-size: 36rpx;
 }
+
+.account .item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #DDDDDD;
+  padding: 26rpx 12rpx 26rpx 26rpx;
+  margin-top: 60rpx;
+}
+
+.account .item .item_left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+}
+.account .item .item_left image{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 30rpx;
+}
+.item_leftt text{
+  color: #333;
+  font-size: 32rpx;
+}
+
+.account .item image{
+  width: 14rpx;
+  height: 20rpx;
+}
+
+
+

@@ -22,11 +22,20 @@
         </view>
     </view>
 
-    <view>
-        <view>
+    <view class='item'>
+        <view class='item_left'>
             <image src="../../../assets/usericon/icon 全部订单@2x.png"/>
             <text>玩呗订单</text>
         </view>
         <image src="../../../assets/usericon/home_drop-down@2x.png"/>
     </view>
+    <view class='item'>
+        <view class='item_left'>
+            <image src="../../../assets/usericon/icon 退款单@2x.png"/>
+            <text>玩呗明细</text>
+        </view>
+        <image src="../../../assets/usericon/home_drop-down@2x.png"/>
+    </view>
+
+
 </view>

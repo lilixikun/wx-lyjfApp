@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84f91125-7a6e-4d97-8b2f-4a19172e5cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/routes/my/account/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/routes/my/account/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/routes/my/account/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/routes/my/account/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/routes/index/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/index/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/routes/my/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/routes/my/home/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/home/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/routes/my/account/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/account/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/routes/my/account/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/account/index.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,18 +18,19 @@
     <session id="1227017629">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="19" />
           <entry key="json" value="8" />
-          <entry key="less" value="5" />
+          <entry key="less" value="6" />
           <entry key="wxml" value="10" />
           <entry key="wxss" value="5" />
           <entry key="xsl" value="1" />
@@ -51,7 +42,7 @@
           <entry key="HTML" value="10" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="19" />
-          <entry key="Less" value="5" />
+          <entry key="Less" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -76,52 +67,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-              <folding>
-                <element signature="n#style#0;n#text#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#text#1;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#text#0;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#text#1;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,8 +108,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="741" />
-    <option name="y" value="115" />
+    <option name="x" value="570" />
+    <option name="y" value="72" />
     <option name="width" value="1135" />
     <option name="height" value="850" />
   </component>
@@ -210,15 +156,7 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="topup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
@@ -299,14 +237,15 @@
       <workItem from="1555851506474" duration="350000" />
       <workItem from="1555851871658" duration="3014000" />
       <workItem from="1555856338407" duration="2603000" />
+      <workItem from="1555942973916" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20058000" />
+    <option name="totallyTimeSpent" value="20095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="593" y="92" width="908" height="680" extended-state="0" />
+    <frame x="456" y="58" width="908" height="680" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3107798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -529,17 +468,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="364">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#text#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#1;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -554,16 +490,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#text#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#text#1;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="141">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/topup/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

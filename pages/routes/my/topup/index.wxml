@@ -1,0 +1,13 @@
+<view class='top-up'>
+  <view class='money'>充值金额</view>
+  <view class='inputs'>
+    <text>￥</text>
+    <input placeholder='请输入充值金额' type='digit' bindinput='inputTitle'></input>
+  </view>
+  <view class='message'>最低充值<text style='color:#02AAB0'>100</text>元</view>
+
+  <view class='next'>
+    下一步
+  </view>
+
+</view>

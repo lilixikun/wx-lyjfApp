@@ -96,8 +96,8 @@
         <text class='money'>0.00</text>
         <text class='open' wx:if="{{isOpenWallet}}">开通钱包(账户)</text>
         <view wx:else class="wallet-left">
-          <button class="top-up">充值</button>
-          <button class="with-drawal">提现</button>
+          <button class="top-up" bindtap='topUp'>充值</button>
+          <button class="with-drawal" bindtap='withdrawal'>提现</button>
         </view>
       </view>
       <view class='instructions'>
