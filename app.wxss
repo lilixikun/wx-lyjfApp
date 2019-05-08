@@ -16,6 +16,9 @@
 .colorRed {
   color: #ff643b;
 }
+image{
+  width:100%;
+}
 body,
 div,
 dl,

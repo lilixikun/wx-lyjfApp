@@ -1,0 +1,21 @@
+/* pages/components/badge/index.wxss */
+
+.recommandReasonCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.recommandReasonSpan {
+  padding: 6px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5fffd;
+  color: #00c1b1;
+  font-family: PingFang-SC-Medium;
+  margin-right: 10px;
+  font-size: 10px;
+  margin-bottom: 5px;
+  border-radius: 16px;
+}

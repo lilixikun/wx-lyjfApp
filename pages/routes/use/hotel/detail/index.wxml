@@ -1,0 +1,7 @@
+<!--pages/routes/use/hotel/detail/index.wxml-->
+<view class="" hover-class="none" hover-stop-propagation="false">
+  <view style='margin:0 20rpx'>
+    <rich-text nodes="{{result.hotelDesc}}"></rich-text>
+  </view>
+
+</view>

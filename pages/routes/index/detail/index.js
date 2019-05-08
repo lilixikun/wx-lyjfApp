@@ -1,5 +1,6 @@
 // pages/index/detail/index.js
-
+import { request } from '../../../../utils/util.js'
+import api from '../../../../utils/api'
 Page({
 
   /**
@@ -7,28 +8,19 @@ Page({
    */
   data: {
     result: {},
-    src: "https://app.wedotting.com/app1/#/list/detail?ranklistId="
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options.id)
-    this.setData({
-      src: "https://app.wedotting.com/app1/#/list/detail?ranklistId=" + options.id
-    })
-    // util.request("http://203.110.179.27:60409/lyjfapp/api/v1/hotel/findHotelById", {
-    //   id: 19
-    // }, true).then(({
-    //   result,
-    //   code
-    // }) => {
-    //   if (code === 0)
-    //     this.setData({
-    //       result
-    //     })
-    // })
+    if (!!options.id) {
+      request(api.rankList.getRankDetail, { ranklistId: options.id }).then(({ code, result }) => {
+        if (code === 0) {
+          this.setData({ result })
+        }
+      })
+    }
   },
 
   /**

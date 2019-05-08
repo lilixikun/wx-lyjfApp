@@ -1,5 +1,23 @@
 <!--pages/index/detail/index.wxml-->
-<view class="" hover-class="none" hover-stop-propagation="false">
-	详情
-</view>
+<scroll-view style="background:#f3f3f3">
+  <image class="" src="{{result.detailHomeImage}}" mode="widthFix" lazy-load="false" />
 
+  <view class="ranklist-card" wx:for="{{result.ranklistCommonDataDTOList}}" wx:key="{{item.mapId}}" bindtap="goTo" data-mapId="{{item.mapId}}">
+    <image class="" src="{{item.imgUrl}}" mode="widthFix" lazy-load="false" />
+    <view class="" style="padding:20rpx">
+      <view class="ranklist-card-title">
+        {{item.name}}
+      </view>
+      <view class="ranklist-card-desc">
+        {{item.desc}}
+      </view>
+      <view class="recommandReason">
+        推荐理由{{item.recommandReason}}
+      </view>
+      <my-badge bind:recommandReason="{{item.recommandReason}}" />
+
+    </view>
+
+  </view>
+
+</scroll-view>

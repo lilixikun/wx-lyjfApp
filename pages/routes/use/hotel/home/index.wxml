@@ -1,24 +1,31 @@
 <list-page bind:getDataList="getDataList" url="{{url}}">
-  <view wx:for="{{dataList}}" wx:key="id">
-    <view class='hotel-card'>
-      <image src='{{item.imageList.length?item.imageList[0].url:""}}' class="hotelimage" />
-      <view class="hotel-card-rightContent">
-        <view class='hotelName'>{{item.hotelName}}</view>
-        <view>
-          <view style='color:#FF643B'>
-            {{item.price}}
-            <text style='font-size:24rpx'>玩贝</text>
-            <text style='color:#999999;font-size:24rpx'> 起</text>
-          </view>
-        </view>
-        <view class='hotel-coll'>
-          <text style='color:#999999'>约 <text style='font-size:14px;color:#020202'>¥{{item.rmbprice}}</text>
-          </text>
-          <text><text style='color:#00C1B1'>{{item.collectCount}}</text> 收藏
-          </text>
-        </view>
-        <text class="hotel-address">{{item.address}}</text>
-      </view>
-    </view>
-  </view>
+	<view
+	 wx:for="{{dataList}}"
+	 wx:key="id"
+	 bindtap="goToDetail"
+	 data-id="{{item.id}}"
+	>
+		<view class='hotel-card'>
+			<image src='{{item.imageList.length?item.imageList[0].url:""}}' class="hotelimage" />
+			<view class="hotel-card-rightContent">
+				<view class='hotelName'>{{item.hotelName}}</view>
+				<view>
+					<view style='color:#FF643B'>
+						{{item.price}}
+						<text style='font-size:24rpx'>玩贝</text>
+						<text style='color:#999999;font-size:24rpx'> 起</text>
+					</view>
+				</view>
+				<view class='hotel-coll'>
+					<text style='color:#999999'>约 <text style='font-size:14px;color:#020202'>¥{{item.rmbprice}}</text>
+					</text>
+					<text><text style='color:#00C1B1'>{{item.collectCount}}</text>
+					收藏
+					</text>
+				</view>
+				<text class="hotel-address">{{item.address}}</text>
+			</view>
+		</view>
+	</view>
 </list-page>
+

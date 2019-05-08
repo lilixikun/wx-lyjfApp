@@ -1,0 +1,4 @@
+<!--pages/components/badge/index.wxml-->
+<view class='recommandReasonCard'>
+  <view class='recommandReasonSpan' wx:for="{{dataList}}">{{item}}</view>
+</view>

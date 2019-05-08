@@ -1,1 +1,31 @@
 /* pages/index/detail/index.wxss */
+
+.ranklist-card {
+  margin: 20rpx;
+  background: #fff;
+}
+
+.ranklist-card image {
+  border-radius: 16rpx 16rpx 0 0;
+}
+
+.ranklist-card-title {
+  color: #000;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  margin-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.ranklist-card-desc {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.recommandReason {
+  margin-top: 40rpx;
+  color: #000;
+  font-size: 13px;
+  padding-bottom: 20rpx;
+}
