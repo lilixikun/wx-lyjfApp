@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f91125-7a6e-4d97-8b2f-4a19172e5cd3" name="Default Changelist" comment="" />
+    <list default="true" id="84f91125-7a6e-4d97-8b2f-4a19172e5cd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/routes/my/account/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/account/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/routes/my/account/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/routes/my/account/index.wxss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,39 +14,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1227017629">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="19" />
+          <entry key="json" value="8" />
+          <entry key="less" value="6" />
+          <entry key="wxml" value="10" />
+          <entry key="wxss" value="5" />
+          <entry key="xsl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="10" />
+          <entry key="JSON" value="8" />
+          <entry key="JavaScript" value="19" />
+          <entry key="Less" value="6" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="115" />
+          <entry key="json" value="18" />
+          <entry key="less" value="54" />
+          <entry key="wxml" value="341" />
+          <entry key="wxss" value="304" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="304" />
+          <entry key="HTML" value="341" />
+          <entry key="JSON" value="18" />
+          <entry key="JavaScript" value="115" />
+          <entry key="Less" value="54" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Less File" />
+        <option value="XSLT Stylesheet" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,13 +90,27 @@
         <option value="$PROJECT_DIR$/pages/components/hotel-card/index.wxss" />
         <option value="$PROJECT_DIR$/pages/components/hotel-card/index.less" />
         <option value="$PROJECT_DIR$/pages/components/travel-card/index.less" />
+        <option value="$PROJECT_DIR$/pages/routes/my/home/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/routes/index/home/index.js" />
+        <option value="$PROJECT_DIR$/pages/routes/my/account/index.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/routes/my/home/index.js" />
+        <option value="$PROJECT_DIR$/pages/routes/my/account/index.less" />
+        <option value="$PROJECT_DIR$/pages/routes/my/account/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/routes/my/account/index.wxml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="470" />
-    <option name="y" value="152" />
-    <option name="width" value="1134" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="570" />
+    <option name="y" value="72" />
+    <option name="width" value="1135" />
     <option name="height" value="850" />
   </component>
   <component name="ProjectView">
@@ -73,33 +122,64 @@
         <subPane>
           <expand>
             <path>
-              <item name="小程序-使用npm构建" type="b2602c69:ProjectViewProjectNode" />
-              <item name="小程序-使用npm构建" type="462c0819:PsiDirectoryNode" />
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="小程序-使用npm构建" type="b2602c69:ProjectViewProjectNode" />
-              <item name="小程序-使用npm构建" type="462c0819:PsiDirectoryNode" />
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="小程序-使用npm构建" type="b2602c69:ProjectViewProjectNode" />
-              <item name="小程序-使用npm构建" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="小程序-使用npm构建" type="b2602c69:ProjectViewProjectNode" />
-              <item name="小程序-使用npm构建" type="462c0819:PsiDirectoryNode" />
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="小程序-使用npm构建" type="b2602c69:ProjectViewProjectNode" />
-              <item name="小程序-使用npm构建" type="462c0819:PsiDirectoryNode" />
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="topup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="use" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="use" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-lyjfApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-lyjfApp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="use" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -112,9 +192,18 @@
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/routes/my/home" />
     <property name="list.type.of.created.stylesheet" value="Less" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\小程序\wx-lyjfApp\pages\routes\my" />
+      <recent name="D:\小程序\wx-lyjfApp\pages\routes\my\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\小程序\wx-lyjfApp\pages\routes\my\accunt" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,17 +234,20 @@
       <workItem from="1554967672423" duration="2226000" />
       <workItem from="1555379536203" duration="1854000" />
       <workItem from="1555553883867" duration="885000" />
+      <workItem from="1555851506474" duration="350000" />
+      <workItem from="1555851871658" duration="3014000" />
+      <workItem from="1555856338407" duration="2603000" />
+      <workItem from="1555942973916" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14091000" />
+    <option name="totallyTimeSpent" value="20095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="456" y="58" width="908" height="680" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3107798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,9 +265,31 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3107798" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32792208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/routes/use/travel/detail/index.wxss">
@@ -199,11 +313,6 @@
     <entry file="file://$PROJECT_DIR$/pages/components/hotel-card/index.wxss" />
     <entry file="file://$PROJECT_DIR$/pages/components/hotel-card/index.less" />
     <entry file="file://$PROJECT_DIR$/pages/components/travel-card/index.wxml" />
-    <entry file="file://$PROJECT_DIR$/app.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/travel-card/index.less" />
     <entry file="file://$PROJECT_DIR$/pages/routes/use/hotel/home/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -239,17 +348,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/use/shop/home/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/routes/use/travel/home/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -260,15 +369,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="152">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/use/shop/home/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/use/shop/detail/index.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/accunt/index.less.xsl" />
+    <entry file="file://$PROJECT_DIR$/pages/routes/use/shop/home/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/index/detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/index/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#text#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#1;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#text#0;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#1;n#view#0;n#view#0;n#view#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/account/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/routes/my/topup/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

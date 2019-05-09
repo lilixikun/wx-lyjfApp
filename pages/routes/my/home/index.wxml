@@ -1,98 +1,134 @@
 <!--pages/my/home/index.wxml-->
 <view class="contairn">
-  <view class="nav">
-    <image src="../../../assets/usericon/icon 设置@2x.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
-    <image src="../../../assets/usericon/icon 消息@2x.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
-  </view>
-  <view class="no-login" wx:if="{{isLogin}}">
-    <view class="portrait">
-      <image src="../../../assets/usericon/img 头像@2x.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
-      <text class="title">登录获取更多信息</text>
-    </view>
-    <button type="default" size="defaultSize" class="login-btn">登录</button>
-  </view>
+	<view class="nav">
+		<image
+		 src="../../../assets/usericon/icon 设置@2x.png"
+		 mode="aspectFit|aspectFill|widthFix"
+		 lazy-load="false"
+		 binderror=""
+		 bindload=""
+		/>
+		<image
+		 src="../../../assets/usericon/icon 消息@2x.png"
+		 mode="aspectFit|aspectFill|widthFix"
+		 lazy-load="false"
+		 binderror=""
+		 bindload=""
+		/>
+	</view>
+	<view class="no-login" wx:if="{{isLogin}}">
+		<view class="portrait">
+			<image
+			 src="../../../assets/usericon/img 头像@2x.png"
+			 mode="aspectFit|aspectFill|widthFix"
+			 lazy-load="false"
+			 binderror=""
+			 bindload=""
+			/>
+			<text class="title">登录获取更多信息</text>
+		</view>
+		<button type="default" size="defaultSize" class="login-btn">登录</button>
+	</view>
 
-  <view wx:else class="login">
-    <view class="header">
-      <view class="user">
-        <image src="../../../assets/usericon/img 头像@2x.png"></image>
-        <view class="info">
-          <text style='color:#2B2C42;font-size:32rpx'>金六六</text>
-          <text style='color:#A6A6B2;font-size:28rpx'>U1903140022</text>
-          <view class='level'>
-            <image src='../../../assets/usericon/lable 会员@2x.png' mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
-            <text>Lv2</text>
-          </view>
-        </view>
-      </view>
-      <view class="members">
-        <image src="../../../assets/usericon/icon 会员2@2x.png" style='width:44rpx;height:44rpx' />
-        <text style='color:#02AAB0;font-size:24rpx;margin-right:20rpx'>会员权益</text>
-        <image src="../../../assets/usericon/home_drop-down@2x.png" style='width:20rpx;height:20rpx' />
-      </view>
-    </view>
-    <view class='card'>
-      <image src='../../../assets/usericon/user-bg.png' mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
-      <view class="bg-content">
-        <view class="energy">
-          <text>升级还需75成长值</text>
-          <view class='energy-right'>
-            <image src="../../../assets/usericon/icon 问号@2x.png" />
-            <text>能量值说明</text>
-          </view>
-        </view>
-        <view class="bgview" id='bgview'>
-          <view class='growth' id="growth" style="width:{{growthWidth}}px"></view>
-        </view>
-        <view class='level-difference'>
-          <view class='difference'>
-            <text class='label1'>Lv2</text>
-            <text class='label2'>({{growthValue}})</text>
-          </view>
-          <view class='difference'>
-            <text class='label1'>Lv3</text>
-            <text class='label2'>({{totalGrowth}})</text>
-          </view>
-        </view>
+	<view wx:else class="login">
+		<view class="header">
+			<view class="user">
+				<image src="../../../assets/usericon/img 头像@2x.png" />
+				<view class="info">
+					<text style='color:#2B2C42;font-size:32rpx'>金六六</text>
+					<text style='color:#A6A6B2;font-size:28rpx'>U1903140022</text>
+					<view class='level'>
+						<image src='../../../assets/usericon/lable 会员@2x.png' mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
+						<text>Lv2</text>
+					</view>
+				</view>
+			</view>
+			<view class="members">
+				<image src="../../../assets/usericon/icon 会员2@2x.png" style='width:44rpx;height:44rpx' />
+				<text style='color:#02AAB0;font-size:24rpx;margin-right:20rpx'>会员权益</text>
+				<image src="../../../assets/usericon/home_drop-down@2x.png" style='width:20rpx;height:20rpx' />
+			</view>
+		</view>
+		<view class='card'>
+			<image src='../../../assets/usericon/user-bg.png' mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
+			<view class="bg-content">
+				<view class="energy">
+					<text>升级还需75成长值</text>
+					<view class='energy-right'>
+						<image src="../../../assets/usericon/icon 问号@2x.png" />
+						<text>能量值说明</text>
+					</view>
+				</view>
+				<view class="bgview" id='bgview'>
+					<view class='growth' id="growth" style="width:{{growthWidth}}px" />
+				</view>
+				<view class='level-difference'>
+					<view class='difference'>
+						<text class='label1'>Lv2</text>
+						<text class='label2'>({{growthValue}})</text>
+					</view>
+					<view class='difference'>
+						<text class='label1'>Lv3</text>
+						<text class='label2'>({{totalGrowth}})</text>
+					</view>
+				</view>
 
-        <view class='title'>我的玩呗(个)</view>
+				<view class='title'>我的玩呗(个)</view>
 
-        <view class="money">
-          <text class='play-bai'>4000</text>
-          <text class='account'>查看账户</text>
-        </view>
-      </view>
+				<view class="money">
+					<text class='play-bai'>4000</text>
+					<text class='account'>查看账户</text>
+				</view>
+			</view>
 
-    </view>
-    <view class="balance">我的余额(元)</view>
-    <view class="wallet">
-      <text class='money'>0.00</text>
-      <text class='open' wx:if="{{isOpenWallet}}">开通钱包(账户)</text>
-      <view wx:else class="wallet-left">
-        <button class="top-up">充值</button>
-        <button class="with-drawal">提现</button>
-      </view>
-    </view>
-    <view class='instructions'>
-      <image src="../../../assets/usericon/icon 问号@2x.png" />
-      <text>钱包账户说明</text>
-    </view>
+		</view>
+		<view class="balance">我的余额(元)</view>
+		<view class="wallet">
+			<text class='money'>0.00</text>
+			<text class='open' wx:if="{{isOpenWallet}}">开通钱包(账户)</text>
+			<view wx:else class="wallet-left">
+				<button class="top-up">充值</button>
+				<button class="with-drawal">提现</button>
+			</view>
+		</view>
+		<view class='instructions'>
+			<image src="../../../assets/usericon/icon 问号@2x.png" />
+			<text>钱包账户说明</text>
+		</view>
 
+	</view>
 
-  </view>
+	<view class='orderList'>
+		<view
+		 wx:for="{{orderList}}"
+		 class='order-item'
+		 wx:key="{{item.id}}"
+		 bindtap=""
+		 data-id="{{item.id}}"
+		>
+			<image
+			 src="{{item.src}}"
+			 mode="aspectFit|aspectFill|widthFix"
+			 lazy-load="false"
+			 binderror=""
+			 bindload=""
+			/>
+			<text>{{item.title}}</text>
+		</view>
+	</view>
 
-  <view class='orderList'>
-    <view wx:for="{{orderList}}" class='order-item' wx:key="{{item.id}}" bindtap="" data-id="{{item.id}}">
-      <image src="{{item.src}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
-      <text>{{item.title}}</text>
-    </view>
-  </view>
-
-  <view class='cell'>
-    <view wx:for="{{cellList}}" class='cell-item' wx:key="{{item.id}}" bindtap="" data-id="{{item.id}}">
-      <text>{{item}}</text>
-      <image src='../../../assets/usericon/home_drop-down@2x.png' />
-    </view>
-  </view>
+	<view class='cell'>
+		<view
+		 wx:for="{{cellList}}"
+		 class='cell-item'
+		 wx:key="{{item.id}}"
+		 bindtap=""
+		 data-id="{{item.id}}"
+		>
+			<text>{{item}}</text>
+			<image src='../../../assets/usericon/home_drop-down@2x.png' />
+		</view>
+	</view>
 
 </view>
+

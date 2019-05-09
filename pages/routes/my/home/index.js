@@ -51,6 +51,23 @@ Page({
     })
   },
 
+  //跳转到用呗账号
+   accountClick(){
+      wx.navigateTo({
+        url: '/pages/routes/my/account/index'
+      })
+   },
+   //充值
+   topUp(){
+     wx.navigateTo({
+       url: '/pages/routes/my/topup/index'
+     })
+   },
+  withdrawal(){
+    wx.navigateTo({
+      url: '/pages/routes/my/withdrawal/index'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

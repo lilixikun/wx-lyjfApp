@@ -1,0 +1,25 @@
+<view class='drawal'>
+  <view class='bg'>
+   <text class='title'>到账银行</text>
+    <view class='select-bank'>
+      <text class='bank'>请选择到账银行</text>
+      <image src='../../../assets/usericon/home_drop-down@2x.png'></image>
+    </view>
+    
+  </view>
+
+   <view class='money'>提现金额 (免收手续费)</view>
+  <view class='inputs'>
+    <text>￥</text>
+    <input placeholder='请输入提现金额' type='digit' bindinput='inputTitle'></input>
+  </view>
+  <view class='message'>
+    <view class='use-money'>可用余额<text style='color:#02AAB0'>100</text>元</view>
+
+    <text>全部提现</text>
+  </view>
+
+  <view class='next'>
+    下一步
+  </view>
+</view>

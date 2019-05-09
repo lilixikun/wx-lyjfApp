@@ -1,0 +1,98 @@
+.drawal{
+  padding: 48rpx;
+}
+
+.drawal .bg{
+  background:linear-gradient(275deg,rgba(129,134,152,1) 0%,rgba(74,78,95,1) 100%);
+  flex: 1;
+  height: 145rpx;
+   /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+  padding:30rpx;
+}
+
+.drawal .bg .title{
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.drawal .bg .select-bank{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.drawal .bg .select-bank text{
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.drawal .bg .select-bank image{
+  width:15rpx;
+  height:28rpx;
+}
+
+.drawal .money{
+  color: #A6A6B2;
+  font-size: 28rpx;
+  margin-top: 42rpx;
+}
+
+.drawal .inputs{
+  border-bottom: 2rpx solid #DDD;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 48rpx;
+  padding-bottom: 20rpx;
+}
+
+.drawal .inputs text{
+  font-size: 64rpx;
+  color: #2B2C42;
+}
+
+.drawal .inputs input{
+  font-size: 45rpx;
+  color: #02AAB0;
+  height: 80rpx;
+  flex: 1;
+  margin-left: 10rpx;
+}
+
+.drawal .message{
+  display: flex;
+   margin-top: 28rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawal .message text{
+  color: #2B2C42;
+  font-size: 32rpx;
+}
+
+.drawal .message .use-money{
+  /* margin-top: 28rpx; */
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.drawal .next{
+ background:linear-gradient(225deg,rgba(60,200,177,1) 0%,rgba(21,144,149,1) 100%);
+  border-radius:8rpx;
+  height: 100rpx;
+  flex: 1;
+  margin-top: 64rpx;
+  color: white;
+   display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
