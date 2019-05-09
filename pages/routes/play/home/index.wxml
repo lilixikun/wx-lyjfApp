@@ -1,0 +1,12 @@
+<!--pages/routes/login/login/index.wxml-->
+<van-tabs swipeable active="{{index}}">
+    <van-tab title="好住">
+        <hotel-list></hotel-list>
+    </van-tab>
+    <van-tab title="好吃">
+        <food-list></food-list>
+    </van-tab>
+    <van-tab title="好物">
+        <shop-list></shop-list>
+    </van-tab>
+</van-tabs>

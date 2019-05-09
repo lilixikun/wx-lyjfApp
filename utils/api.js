@@ -24,5 +24,8 @@ export default {
     getRankTypeList: "/lyjfapp/api/v1/ranklist/findRankTypeToSort",  //获取榜单列表
     getRankList: "/lyjfapp/api/v1/ranklist/findByCondition",
     getRankDetail: "/lyjfapp/api/v1/ranklistDetail/findById"
+  },
+  play:{
+    getHotelList:"/lyjfapp/api/v1/hotel/findByCondition"//好住列表
   }
 }

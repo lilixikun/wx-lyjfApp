@@ -8,6 +8,10 @@
     "pages/routes/use/home/index",
     "pages/routes/index/home/index",
     "pages/routes/my/home/index",
+    "pages/routes/play/home/index",
+    "pages/routes/play/hotel/index",
+    "pages/routes/play/food/index",
+    "pages/routes/play/shop/index",
     "pages/routes/my/account/index",
     "pages/routes/my/topup/index",
     "pages/routes/my/withdrawal/index",
@@ -34,6 +38,12 @@
         "text": "榜单",
         "iconPath": "./pages/assets/tabbaricon/icon 首页 默认@2x.png",
         "selectedIconPath": "./pages/assets/tabbaricon/icon 首页@2x.png"
+      },
+      {
+        "pagePath": "pages/routes/play/home/index",
+        "text": "玩呗",
+        "iconPath": "./pages/assets/tabbaricon/icon 转贝 默认@2x.png",
+        "selectedIconPath": "./pages/assets/tabbaricon/icon 转贝@2x.png"
       },
       {
         "pagePath": "pages/routes/use/home/index",

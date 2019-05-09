@@ -1,0 +1,51 @@
+<!--pages/routes/login/login/index.wxml-->
+<view class="hotel">
+    <view class="header">
+        <view class='item'>
+            <text >全部类型</text>
+            <image src="./../../../assets/矩形 1 副本@2x.png" />
+        </view>
+        <view class='item'>
+            <text >价格</text>
+            <image src="./../../../assets/矩形 1 副本@2x.png" />
+        </view>
+        <view class='item'>
+            <text >星级</text>
+            <image src="./../../../assets/矩形 1 副本@2x.png" />
+        </view>
+    </view>
+    <view class="list">
+        <list-page bind:getDataList="getDataList" url="{{url}}">
+        <view wx:for="{{dataList}}" class="list-item">
+            <image src="" 
+                class=""
+                src="{{item.imageList[0].imageFullUrl}}"
+                mode="aspectFit|aspectFill|widthFix"
+                lazy-load="false"
+                binderror=""
+                bindload=""
+            />
+            <view class="item-info">
+                <text class="title">{{item.hotelName}}</text>
+                <view class="">
+                    <text style="font-size:28rpx;color:#FF5534">{{item.price}}玩呗</text>
+                    <text style="font-size:24rpx;color:#999999">起</text>
+                </view>
+                <view class="collect">
+                    <view>
+                        <text style="font-size:24rpx;color:#999999">约</text>
+                        <text style="font-size:24rpx;color:#020202">￥{{item.rmbprice}}</text>
+                    </view>
+                    <view>
+                        <text style="font-size:24rpx;color:#00C1B1">{{item.collectCount}}</text>
+                        <text style="font-size:24rpx;color:#999999">收藏</text>
+                    </view>
+                </view>
+                <text style="font-size:24rpx;color:#999999">{{item.address}}</text>
+            </view>
+        </view>
+    </list-page>
+
+    </view>
+    
+</view>
