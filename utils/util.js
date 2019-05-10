@@ -1,4 +1,4 @@
-const baseUrl = "https://appuat.wedotting.com";
+const baseUrl = "https://app.wedotting.com";
 
 function request(url, data, isLoading = false) {
   return new Promise((success, rej) => {

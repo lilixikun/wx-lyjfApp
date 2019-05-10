@@ -5,8 +5,12 @@ Component({
    */
   properties: {
     recommandReason: {
-      type: String || Array,
-      value: ""
+      type: String,
+      value: "",
+    },
+    hotelFacilityList: {
+      type: Array,
+      value: []
     }
   },
 
@@ -16,6 +20,7 @@ Component({
   data: {
     dataList: []
   },
+
 
   ready() {
     if (!!this.data.recommandReason) {

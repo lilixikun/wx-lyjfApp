@@ -1,0 +1,19 @@
+/* pages/components/labelTag/index.wxss */
+
+.labelTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40rpx 0;
+  font-size: 32rpx;
+  color: #000;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+}
+
+.tag {
+  width: 6rpx;
+  height: 36rpx;
+  background: #00c6be;
+  margin-right: 10px;
+}

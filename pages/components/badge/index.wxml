@@ -1,4 +1,9 @@
 <!--pages/components/badge/index.wxml-->
-<view class='recommandReasonCard'>
-  <view class='recommandReasonSpan' wx:for="{{dataList}}">{{item}}</view>
+<view class='recommandReasonCard' wx:if="{{dataList.length}}">
+	<view class='recommandReasonSpan' wx:for="{{dataList}}">{{item}}</view>
 </view>
+
+<view class='recommandReasonCard' wx:if="{{hotelFacilityList.length}}">
+	<view class='recommandReasonSpan' wx:for="{{hotelFacilityList}}" wx:key="{{item.id}}">{{item.dictName}}</view>
+</view>
+

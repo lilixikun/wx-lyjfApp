@@ -12,9 +12,9 @@
         {{item.desc}}
       </view>
       <view class="recommandReason">
-        推荐理由{{item.recommandReason}}
+        推荐理由
       </view>
-      <my-badge bind:recommandReason="{{item.recommandReason}}" />
+      <my-badge recommandReason="{{item.recommandReason}}" />
 
     </view>
 

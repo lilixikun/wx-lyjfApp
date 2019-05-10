@@ -1,17 +1,19 @@
 {
   "usingComponents": {
     "list-page": "./pages/components/listPage/index",
-    "van-button": "./pages/dist/button/index"
+    "van-button": "./pages/dist/button/index",
+    "my-swiper": "./pages/components/mySwiper/index",
+    "label-tag": "./pages/components/labelTag/index",
+    "van-row": "./pages/dist/row/index",
+    "van-col": "./pages/dist/col/index",
+    "van-icon": "./pages/dist/icon/index",
+    "my-badge": "./pages/components/badge/index"
   },
   "enablePullDownRefresh": false,
   "pages": [
     "pages/routes/use/home/index",
     "pages/routes/index/home/index",
     "pages/routes/my/home/index",
-    "pages/routes/play/home/index",
-    "pages/routes/play/hotel/index",
-    "pages/routes/play/food/index",
-    "pages/routes/play/shop/index",
     "pages/routes/my/account/index",
     "pages/routes/my/topup/index",
     "pages/routes/my/withdrawal/index",
@@ -38,12 +40,6 @@
         "text": "榜单",
         "iconPath": "./pages/assets/tabbaricon/icon 首页 默认@2x.png",
         "selectedIconPath": "./pages/assets/tabbaricon/icon 首页@2x.png"
-      },
-      {
-        "pagePath": "pages/routes/play/home/index",
-        "text": "玩呗",
-        "iconPath": "./pages/assets/tabbaricon/icon 转贝 默认@2x.png",
-        "selectedIconPath": "./pages/assets/tabbaricon/icon 转贝@2x.png"
       },
       {
         "pagePath": "pages/routes/use/home/index",

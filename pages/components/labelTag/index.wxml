@@ -1,0 +1,5 @@
+<!--pages/components/labelTag/index.wxml-->
+<view class='labelTag'>
+  <view class='tag'></view>
+  <view class='label'>{{label}}</view>
+</view>

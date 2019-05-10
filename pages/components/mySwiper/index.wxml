@@ -1,0 +1,23 @@
+<!--pages/components/mySwiper/index.wxml-->
+<swiper
+ indicator-dots="true"
+ autoplay="{{autoplay}}"
+ interval="{{interval}}"
+ circular="true"
+ style="height:564rpx"
+>
+	<block wx:for="{{imageList}}" wx:key="{{item.id}}">
+		<swiper-item>
+			<image
+			 class=""
+			 src="{{item.url}}"
+			 mode="widthFix"
+			 lazy-load="false"
+			 binderror=""
+			 bindload=""
+			/>
+
+		</swiper-item>
+	</block>
+</swiper>
+
