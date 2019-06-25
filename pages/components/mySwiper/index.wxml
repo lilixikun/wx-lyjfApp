@@ -1,23 +1,13 @@
-<!--pages/components/mySwiper/index.wxml-->
-<swiper
- indicator-dots="true"
- autoplay="{{autoplay}}"
- interval="{{interval}}"
- circular="true"
- style="height:564rpx"
->
-	<block wx:for="{{imageList}}" wx:key="{{item.id}}">
-		<swiper-item>
-			<image
-			 class=""
-			 src="{{item.url}}"
-			 mode="widthFix"
-			 lazy-load="false"
-			 binderror=""
-			 bindload=""
-			/>
-
-		</swiper-item>
-	</block>
+<!-- pages/components/mySwiper/index.wxml -->
+<swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" circular="true" style="height:564rpx">
+  <swiper-item>
+    <video id="myVideo" src="https://video.wedotting.com/51069208d9c844938d57dfd8d166a2e2/ed2f5458feb14ceab535ecda7c83028a-2dc4eaac411aeb16a71f81353d5b4040-sd.mp4?auth_key=1561460856-92cd340a869246e4b205ab65a5ab7c99-0-bb2a4d414ce357f7bafe2396df528324"
+      danmu-list="{{danmuList}}" enable-play-gesture enable-danmu danmu-btn controls show-center-play-btn style="width:100%;height:282px"></video>
+  </swiper-item>
+  >
+  <block wx:for="{{imageList}}" wx:key="{{item.id}}">
+    <swiper-item>
+      <image class="" src="{{item.url}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </swiper-item>
+  </block>
 </swiper>
-

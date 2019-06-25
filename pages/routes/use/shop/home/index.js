@@ -16,8 +16,12 @@ Page({
     })
   },
 
-  methods: {
-
-  },
+  goToDetail(e) {
+    const id = e.currentTarget.dataset.id;
+    if (!!id)
+      wx.navigateTo({
+        url: '/pages/routes/use/shop/detail/index?id=' + id
+      })
+  }
 
 })

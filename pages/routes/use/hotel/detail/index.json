@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "van-collapse": "../../../../dist/collapse/index",
-    "van-collapse-item": "../../../../dist/collapse-item/index"
-  },
-  "navigationBarTitleText": "酒店详情"
-}

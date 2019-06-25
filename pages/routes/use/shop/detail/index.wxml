@@ -1,2 +1,2 @@
-<!--pages/routes/use/shop/detail/index.wxml-->
-<text>pages/routes/use/shop/detail/index.wxml</text>
+<!-- pages/routes/use/shop/detail/index.wxml -->
+<video id="myVideo" src="https://video.wedotting.com/eba6b251ee5a43d4976dd9868f1815e1/0fc3be2dd91e4478aefdffdd374e361f-ad77426d893cbb2f450108d79e7be988-ld-nbv1.mp4?auth_key=1561458043-c52317aafd264efe8efb5b19d2fe68d1-0-81d600b6236235c66d16696f6ee18e73" danmu-list="{{danmuList}}" enable-play-gesture enable-danmu danmu-btn controls show-center-play-btn style="width:100%;height:282px"></video>

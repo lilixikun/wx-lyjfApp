@@ -22,9 +22,9 @@
     "pages/routes/use/travel/home/index",
     "pages/routes/use/shop/home/index",
     "pages/routes/index/detail/index",
-    "pages/routes/login/regist/index",
     "pages/routes/use/hotel/detail/index",
-    "pages/routes/use/travel/detail/index"
+    "pages/routes/use/travel/detail/index",
+    "pages/routes/use/shop/detail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
