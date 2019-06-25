@@ -1,11 +1,7 @@
-  <van-tabs swipeable active="{{index}}">
-  <van-tab title="预订酒店">
-    <hotel-list />
-  </van-tab>
-  <van-tab title="定制游">
-    <travel-list />
-  </van-tab>
-  <van-tab title="商城">
-    <shop-list />
+<van-tabs swipeable active="{{active}}" bind:change="change">
+  <van-tab wx:for="{{tabs}}" wx:key="label" title="{{item.title}}">
+    <hotel-list wx:if="{{item.show && index==0}}" />
+    <travel-list wx:if="{{item.show && index==1}}" />
+    <shop-list wx:if="{{item.show && index==2}}" />
   </van-tab>
 </van-tabs>

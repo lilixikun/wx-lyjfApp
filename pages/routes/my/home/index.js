@@ -28,14 +28,24 @@ Page({
     totalGrowth: 300, //总成长值
     growthWidth: 0, //成长值长度得初始值
     isOpenWallet: true, //是否开通钱包
+    userInfo: {},
+    headerImg: "../../../assets/usericon/img 头像@2x.png"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
     this.initGrow();
+    this.setData({
+      userInfo: getApp().globalData.userInfo
+    })
+    if (getApp().globalData.userInfo.avatarUrl) {
+      console.log(getApp().globalData.userInfo.avatarUrl)
+      this.setData({
+        headerImg: getApp().globalData.userInfo.avatarUrl
+      })
+    }
   },
   //计算成长值长度
   initGrow() {
@@ -52,18 +62,18 @@ Page({
   },
 
   //跳转到用呗账号
-   accountClick(){
-      wx.navigateTo({
-        url: '/pages/routes/my/account/index'
-      })
-   },
-   //充值
-   topUp(){
-     wx.navigateTo({
-       url: '/pages/routes/my/topup/index'
-     })
-   },
-  withdrawal(){
+  accountClick() {
+    wx.navigateTo({
+      url: '/pages/routes/my/account/index'
+    })
+  },
+  //充值
+  topUp() {
+    wx.navigateTo({
+      url: '/pages/routes/my/topup/index'
+    })
+  },
+  withdrawal() {
     wx.navigateTo({
       url: '/pages/routes/my/withdrawal/index'
     })

@@ -6,7 +6,7 @@ export default {
   },
   travel: {
     findByCondition: "/lyjfapp/api/v1/travel/findByCondition", //列表查询
-    orderDetail: "/lyjfapp/api/v1/travel/orderDetail", //订单详情
+    orderDetail: "/lyjfapp/api/v1/travel/detail", //订单详情
     detail: "/lyjfapp/api/v1/travel/detail", //定制游详情
     orderAdd: "/lyjfapp/api/v1/travel/orderAdd", //预定定制游
   },

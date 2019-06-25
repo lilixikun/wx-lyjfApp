@@ -36,7 +36,7 @@ Component({
     wx.getSystemInfo({
       success: function (res) {
         that.setData({
-          scrollHeight: res.windowHeight-44
+          scrollHeight: res.windowHeight - 44
         });
       }
     });
@@ -80,6 +80,22 @@ Component({
         this.setData({ isLoading: true })
         this.getDataList(pageNum + 1);
       }
+    },
+
+    //下拉刷新
+    refresh() {
+      this.setData({ dataList: [] });
+      const { url, parms } = this.data;
+      request(url, 1, 10, ...parms, true).then(({ code, result }) => {
+        if (code === 0) {
+          this.setData({
+            dataList: result.result
+          });
+          this.triggerEvent('getDataList', {
+            dataList: result.result
+          });
+        }
+      })
     }
   },
 

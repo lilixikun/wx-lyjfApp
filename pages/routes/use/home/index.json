@@ -6,5 +6,5 @@
     "travel-list": "../travel/home/index",
     "shop-list": "../shop/home/index"
   },
-  "enablePullDownRefresh": false
+  "enablePullDownRefresh": true
 }

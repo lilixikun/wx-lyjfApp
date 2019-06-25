@@ -1,4 +1,21 @@
-<view class="bd-dody">
+<view wx:if="{{isHide}}">
+  <view wx:if="{{canIUse}}">
+    <view class='header'>
+      <image src='../../../assets/usericon/img 头像.png'></image>
+    </view>
+
+    <view class='content'>
+      <view>申请获取以下权限</view>
+      <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+
+    <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+      授权登录
+    </button>
+  </view>
+  <view wx:else>请升级微信版本</view>
+</view>
+<view wx:else class="bd-dody">
   <view class="bd-header">
     <text class="">云南大理</text>
     <image class="" src="../../../assets/homeicon/icon 首页 地图@2x.png" mode="widthFix" lazy-load="false" />

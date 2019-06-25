@@ -34,7 +34,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null,
+    userInfo: {},
     selectUseTabs: 0 //默认选中用贝的tab
   }
 })

@@ -1,0 +1,9 @@
+<!-- pages/components/richTextHidden/index.wxml -->
+<view class="{{isHidden?'richTextHidden':'richText'}}">
+  <rich-text nodes="{{nodes}}" class='content'></rich-text>
+  <view class='hiddenRich-shadow'></view>
+  <view style="text-align:center" catch:tap="changeHidden">
+    <view class='hiddenRich-button'>查看详情</view>
+    <image src='../../assets/矩形 1 副本@3x.png' mode="widthFix" style="width:32rpx;height:32rpx"></image>
+  </view>
+</view>

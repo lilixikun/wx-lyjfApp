@@ -11,10 +11,21 @@ Page({
   },
 
   //获取数据列表
-  getDataList: function (e) {
+  getDataList: function(e) {
     this.setData({
       dataList: e.detail.dataList
     })
+  },
+
+  /**
+   * 跳转详情
+   */
+  goToDetail(e) {
+    const id = e.currentTarget.dataset.id;
+    if (!!id)
+      wx.navigateTo({
+        url: '/pages/routes/use/travel/detail/index?id=' + id
+      })
   },
 
   methods: {

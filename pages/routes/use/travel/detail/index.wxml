@@ -1,0 +1,12 @@
+<!--pages/routes/use/travel/detail/index.wxml-->
+<view>
+  <my-swiper imageList="{{detail.imageList}}" />
+  <view style='padding:0 20rpx'>
+    <text class='travelName'>{{detail.travelName}}</text>
+    <view>
+      <text style='color:#FF643B;font-size:40rpx'>{{detail.creditPirce}} 玩贝</text>
+      <text style='color:#62656E;font-size:32rpx;margin-left:20rpx'>约{{detail.singleCost}}</text>
+    </view>
+    <my-textrich nodes="{{detail.travelDesc}}" />
+  </view>
+</view>

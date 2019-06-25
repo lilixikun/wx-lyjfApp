@@ -1,29 +1,20 @@
 <list-page bind:getDataList="getDataList" url="{{url}}">
-	<view wx:for="{{dataList}}" wx:key="id">
-		<view class="travel-card">
-			<image
-			 class=""
-			 src="{{item.imageList[0].url}}"
-			 mode="aspectFit|aspectFill|widthFix"
-			 lazy-load="false"
-			 binderror=""
-			 bindload=""
-			/>
+  <view wx:for="{{dataList}}" wx:key="id">
+    <view class="travel-card" bindtap="goToDetail" data-id="{{item.id}}">
+      <image class="" src="{{item.imageList[0].url}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
 
-			<text class="travelName">{{item.travelName}}</text>
-			<view class="travelPrice">
-				<view>
-					<text style="color:#FF5534;font-size:38rpx">{{item.creditPirce}}<text style="font-size:28rpx">玩贝</text></text>
-					约
-					<text style="color:#000000"> ¥ {{item.singleCost}}</text>
-				</view>
-				<view class="">
-					提前
-					<text style="color:#00C1B1">{{item.preBuyDays}}天</text>
-					预订
-				</view>
-			</view>
-		</view>
-	</view>
+      <text class="travelName">{{item.travelName}}</text>
+      <view class="travelPrice">
+        <view>
+          <text style="color:#FF5534;font-size:38rpx">{{item.creditPirce}}<text style="font-size:28rpx">玩贝</text></text>
+          约
+          <text style="color:#000000"> ¥ {{item.singleCost}}</text>
+        </view>
+        <view class="">
+          提前
+          <text style="color:#00C1B1">{{item.preBuyDays}}天</text> 预订
+        </view>
+      </view>
+    </view>
+  </view>
 </list-page>
-
